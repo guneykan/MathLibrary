@@ -10,10 +10,11 @@ public:
   vector(float x1,float x2,float x3);
   vector operator+(const vector& vec2);
   float operator*(const vector& vec2);
+  vector operator*(const float& scalar);
   vector operator-(const vector& vec2);
   void operator=(const vector& vec2);
   void operator+=(const vector& vec2);
   void operator-=(const vector& vec2);
-
+  void operator*=(const float& scalar);
 
 };
