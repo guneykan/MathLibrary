@@ -25,6 +25,7 @@ vector vector::operator+(const vector& vec2){
 float vector::operator*(const vector& vec2){
     return this->x1*vec2.x1+this->x2*vec2.x2+this->x3*vec2.x3;
 }
+
 vector vector::operator*(const float& scalar){
   vector resVec(this->x1*scalar,this->x2*scalar,this->x3*scalar);
   return resVec;
